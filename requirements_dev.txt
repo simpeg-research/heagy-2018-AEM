@@ -1,8 +1,8 @@
 numpy
 scipy
 matplotlib
+nbtest
 ipywidgets
 discretize
 SimPEG
-nbtest
 pymatsolver
