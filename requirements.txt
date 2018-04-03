@@ -4,3 +4,4 @@ matplotlib
 ipywidgets
 discretize
 SimPEG
+pymatsolver
