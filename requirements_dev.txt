@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+ipywidgets
+discretize
+SimPEG
+nbtest
