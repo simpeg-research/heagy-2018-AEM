@@ -1,7 +1,9 @@
 import nbtest
 import unittest
 
-NBDIR = '../notebooks'
+NBDIR = os.path.sep.join(
+    os.path.abspath(__file__).split(os.path.sep)[:-2] + ['notebooks']
+)
 # IGNORE = ["TEM_VerticalConductor_1D_stiched_invrsion"]
 
 class TestNotebooks(unittest.TestCase):
