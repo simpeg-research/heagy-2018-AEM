@@ -24,6 +24,7 @@ install:
   - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib cython ipython
   - pip install -r requirements.txt
   - pip install -r requirements_dev.txt
+  - pip install nbtest
   - export MPLBACKEND="agg"
 
 script:
