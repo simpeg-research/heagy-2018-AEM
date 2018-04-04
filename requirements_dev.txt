@@ -6,3 +6,4 @@ discretize
 SimPEG
 pymatsolver
 testipynb
+nose
