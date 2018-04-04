@@ -1,5 +1,5 @@
 import os
-import nbtest
+import testipynb
 import unittest
 
 NBDIR = os.path.sep.join(
@@ -10,7 +10,7 @@ NBDIR = os.path.sep.join(
 class TestNotebooks(unittest.TestCase):
 
     def test_notebooks(self):
-        Test = nbtest.TestNotebooks(directory=NBDIR)
+        Test = testipynb.TestNotebooks(directory=NBDIR)
         self.assertTrue(Test.run_tests())
 
 if __name__ == "__main__":
