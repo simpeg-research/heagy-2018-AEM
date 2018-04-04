@@ -17,11 +17,11 @@ before_install:
     fi
   - chmod +x miniconda.sh
   - ./miniconda.sh -b -p $HOME/miniconda
-  - export PATH=/home/travis/anaconda/bin:/home/travis/miniconda/bin:$PATH
+  - export PATH=$HOME/anaconda/bin:$HOME/miniconda/bin:$PATH
   - conda update --yes conda
 
 install:
-  - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib cython mkl
+  - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib jupyter cython mkl
   - pip install -r requirements.txt
   - pip install -r requirements_dev.txt
   - export MPLBACKEND="agg"
