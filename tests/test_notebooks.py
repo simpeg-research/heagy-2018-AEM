@@ -10,7 +10,7 @@ NBDIR = os.path.sep.join(
 class TestNotebooks(unittest.TestCase):
 
     def test_notebooks(self):
-        Test = testipynb.TestNotebooks(directory=NBDIR)
+        Test = testipynb.TestNotebooks(directory=NBDIR, timeout=1800)
         self.assertTrue(Test.run_tests())
 
 if __name__ == "__main__":
