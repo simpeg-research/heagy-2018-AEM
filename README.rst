@@ -29,7 +29,7 @@ There are 4 notebooks in this repository:
 
 **Usage**
 
-Dependencies are specified in `requirements.txt<https://github.com/simpeg-research/heagy_2018_AEM/blob/master/requirements.txt>`_
+Dependencies are specified in `requirements.txt <https://github.com/simpeg-research/heagy_2018_AEM/blob/master/requirements.txt>`_
 
 .. code::
 
