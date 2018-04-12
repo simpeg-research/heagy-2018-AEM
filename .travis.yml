@@ -21,12 +21,10 @@ before_install:
   - conda update --yes conda
 
 install:
-  # - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib jupyter cython mkl
-  # - pip install -r requirements.txt
-  # - pip install -r requirements_dev.txt
   - conda env create -f environment.yml
   - source activate aem-environment
   - export MPLBACKEND="agg"
+  - pip install -r requirements_dev.txt
 
 script:
   - travis_wait 30 nosetests tests -v -s
