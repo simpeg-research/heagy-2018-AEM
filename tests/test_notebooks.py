@@ -7,11 +7,8 @@ NBDIR = os.path.sep.join(
 )
 # IGNORE = ["TEM_VerticalConductor_1D_stiched_invrsion"]
 
-class TestNotebooks(unittest.TestCase):
-
-    def test_notebooks(self):
-        Test = testipynb.TestNotebooks(directory=NBDIR, timeout=1800)
-        self.assertTrue(Test.run_tests())
+Test = testipynb.TestNotebooks(directory=NBDIR, timeout=2000)
+TestNotebooks = Test.get_tests()
 
 if __name__ == "__main__":
     unittest.main()
