@@ -1,9 +1,2 @@
-numpy
-scipy
-matplotlib
-ipywidgets
-discretize
-SimPEG
-pymatsolver
 testipynb
-nose
+

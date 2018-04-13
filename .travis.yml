@@ -27,4 +27,4 @@ install:
   - export MPLBACKEND="agg"
 
 script:
-  - travis_wait 30 nosetests tests -v -s
+  - travis_wait 30 python tests/test_notebooks -v -s
