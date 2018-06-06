@@ -1,8 +1,8 @@
 heagy_2018_AEM
 ==============
 
-.. image:: https://travis-ci.org/simpeg-research/heagy_2018_AEM.svg?branch=master
-    :target: https://travis-ci.org/simpeg-research/heagy_2018_AEM
+.. image:: https://travis-ci.org/simpeg-research/heagy-2018-AEM.svg?branch=master
+    :target: https://travis-ci.org/simpeg-research/heagy-2018-AEM
 
 .. image:: https://mybinder.org/badge.svg
     :target: https://mybinder.org/v2/gh/simpeg-research/heagy_2018_AEM/master
