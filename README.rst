@@ -1,5 +1,5 @@
-heagy_2018_AEM
-==============
+Open source software for simulations and inversions of airborne electromagnetic data
+====================================================================================
 
 .. image:: https://travis-ci.org/simpeg-research/heagy-2018-AEM.svg?branch=master
     :target: https://travis-ci.org/simpeg-research/heagy-2018-AEM
@@ -15,8 +15,10 @@ Notebooks and python scripts to reproduce the figures shown in
 `"Open source software for simulations and inversions of airborne electromagnetic data," <https://github.com/simpeg-research/heagy_2018_AEM/blob/master/Heagy_etal_2018_aem_workshop.pdf>`_
 submitted to the AEM 2018 workshop.
 
+The slides used in the presentation are available at: https://speakerdeck.com/lheagy/open-source-software-for-simulations-and-inversions-of-airborne-electromagnetic-data
+
 .. image:: currents.png
-    :width: 70%
+    :width: 60%
 
 **Summary**
 
