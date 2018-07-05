@@ -6,16 +6,15 @@ heagy_2018_AEM
 
 .. image:: https://mybinder.org/badge.svg
     :target: https://mybinder.org/v2/gh/simpeg-research/heagy_2018_AEM/master
-    
+
 .. image:: https://zenodo.org/badge/124603211.svg
    :target: https://zenodo.org/badge/latestdoi/124603211
-
 
 Notebooks and python scripts to reproduce the figures shown in
 `"Open source software for simulations and inversions of airborne electromagnetic data," <https://github.com/simpeg-research/heagy_2018_AEM/blob/master/Heagy_etal_2018_aem_workshop.pdf>`_
 submitted to the AEM 2018 workshop.
 
-.. image:: currents.png
+.. image:: figures/currents.png
     :width: 70%
 
 **Summary**
