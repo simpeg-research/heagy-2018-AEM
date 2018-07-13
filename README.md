@@ -7,6 +7,7 @@
 [![Azure](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl)
 [![Zenodo](https://zenodo.org/badge/124603211.svg)](https://zenodo.org/badge/latestdoi/124603211)
 [![License](https://img.shields.io/github/license/simpeg-research/heagy-2018-AEM.svg)](https://github.com/simpeg-research/heagy-2018-AEM/blob/master/LICENSE)
+[![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
 Notebooks and python scripts to reproduce the figures shown in
 "[Open source software for simulations and inversions of airborne electromagnetic data](/Heagy_etal_2018_aem_workshop.pdf),"
