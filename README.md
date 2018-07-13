@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/github/license/simpeg-research/heagy-2018-AEM.svg)](https://github.com/simpeg-research/heagy-2018-AEM/blob/master/LICENSE)
 
 Notebooks and python scripts to reproduce the figures shown in
-"[Open source software for simulations and inversions of airborne electromagnetic data](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/Heagy_etal_2018_aem_workshop.pdf),"
+"[Open source software for simulations and inversions of airborne electromagnetic data](/Heagy_etal_2018_aem_workshop.pdf),"
 submitted to the AEM 2018 workshop.
 
 
@@ -23,14 +23,19 @@ Inversions of airborne EM data are often an iterative process, not only requirin
 
 There are 4 notebooks in this repository:
 
-- [TEM_VerticalConductor_2D_forward.ipynb](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. This notebook was used to generate figures 1-4 in the abstract
--[TEM_VerticalConductor_1D_stitched_inversion.ipynb](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/TEM_VerticalConductor_1D_stitched_inversion.ipynb) : Using the forward simulated data from the previous notebook, we run 1D inversions over the plate (Figure 5 in the abstract).
-- [TEM_VerticalConductor_2D_inversion_load.ipynb](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/TEM_VerticalConductor_2D_inversion_load.ipynb) : This notebook loads the 2D inversion results over the plate (Figure 6 in the abstract). The 2D inversion was run using the script [2dinv_smooth.py](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/2d_inv_smooth/2dinv_smooth.py).
-- [TEM_VerticalConductor_parametric_inversion_load.ipynb](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/TEM_VerticalConductor_parametric_inversion_load.ipynb) : This notebook loads the 2D parametric inversion inversion results (Figure 7 in the abstract). The 2D parametric inversion was run using the script [2dinv_parametric.py](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/2d_inv_parametric/2d_inv_parametric.py) .
+- [TEM_VerticalConductor_2D_forward.ipynb](/notebooks/TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. This notebook was used to generate figures 1-4 in the abstract
+- [TEM_VerticalConductor_1D_stitched_inversion.ipynb](/notebooks/TEM_VerticalConductor_1D_stitched_inversion.ipynb) : Using the forward simulated data from the previous notebook, we run 1D inversions over the plate (Figure 5 in the abstract).
+- [TEM_VerticalConductor_2D_inversion_load.ipynb](/notebooks/TEM_VerticalConductor_2D_inversion_load.ipynb) : This notebook loads the 2D inversion results over the plate (Figure 6 in the abstract). The 2D inversion was run using the script [2dinv_smooth.py](/notebooks/2d_inv_smooth/2dinv_smooth.py).
+- [TEM_VerticalConductor_parametric_inversion_load.ipynb](/notebooks/TEM_VerticalConductor_parametric_inversion_load.ipynb) : This notebook loads the 2D parametric inversion inversion results (Figure 7 in the abstract). The 2D parametric inversion was run using the script [2dinv_parametric.py](/notebooks/2d_inv_parametric/2d_inv_parametric.py) .
+
+In addition, there are two notebooks used for demos in the workshop [3D EM Modelling and Inversion with Open Source Resources](https://courses.geosci.xyz/aem2018):
+
+- [TEM_VerticalConductor_2D_forward.ipynb](/demo_notebooks/TEM_VerticalConductor_2D_forward.ipynb) : runs a forward simulation of an airborne electromagnetic simulation over a conductive plate. Similar to that in the notebooks directory.
+- [TDEM_1D_inversion.ipynb](/demo_notebooks/TDEM_1D_inversion.ipynb): In this notebook, we run a 1D inversion for a single airborne time domain EM sounding
 
 ## Usage
 
-Dependencies are specified in [requirements.txt](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/requirements.txt)
+Dependencies are specified in [requirements.txt](/requirements.txt)
 
 ```
 pip install -r requirements.txt
