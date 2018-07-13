@@ -28,16 +28,15 @@ There are 4 notebooks in this repository:
 - [TEM_VerticalConductor_2D_inversion_load.ipynb](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/TEM_VerticalConductor_2D_inversion_load.ipynb) : This notebook loads the 2D inversion results over the plate (Figure 6 in the abstract). The 2D inversion was run using the script [2dinv_smooth.py](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/2d_inv_smooth/2dinv_smooth.py).
 - [TEM_VerticalConductor_parametric_inversion_load.ipynb](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/TEM_VerticalConductor_parametric_inversion_load.ipynb) : This notebook loads the 2D parametric inversion inversion results (Figure 7 in the abstract). The 2D parametric inversion was run using the script [2dinv_parametric.py](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/notebooks/2d_inv_parametric/2d_inv_parametric.py) .
 
-Usage
------
+## Usage
 
 Dependencies are specified in [requirements.txt](https://github.com/simpeg-research/heagy_2018_AEM/blob/master/requirements.txt)
 
 ```
 pip install -r requirements.txt
 ```
-    
-To run the notebooks locally, you will need to have python installed, 
+
+To run the notebooks locally, you will need to have python installed,
 preferably through [anaconda](https://www.anaconda.com/download/) .
 
 You can then clone this repository. From a command line, run
@@ -62,13 +61,13 @@ source activate aem-environment
 
 alternatively, you can install dependencies through pypi
 
-``` 
+```
 pip install -r requirements.txt
 ```
 
 You can then launch Jupyter
 
-``` 
+```
 jupyter notebook
 ```
 
@@ -88,7 +87,7 @@ Please [make an issue](https://github.com/simpeg-research/heagy_2018_AEM/issues)
 
 ## Citation
 
-If you build upon or use these examples in your work, please cite: 
+If you build upon or use these examples in your work, please cite:
 
 Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5).
 
