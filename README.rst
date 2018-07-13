@@ -39,3 +39,19 @@ Dependencies are specified in `requirements.txt <https://github.com/simpeg-resea
     pip install -r requirements.txt
 
 Please `make an issue <https://github.com/simpeg-research/heagy_2018_AEM/issues>`_ if you encounter any problems while trying to run the notebooks.
+
+**Citation**
+
+
+Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5).
+
+.. code::
+
+    @inproceedings{Heagy2018,
+    author = {Heagy, Lindsey J and Kang, Seogi and Cockett, Rowan and Oldenburg, Douglas W.},
+    booktitle = {7th International Workshop on Airborne Electromagnetics},
+    keywords = {finite volume,frequency domain,inversion,open source software,time domain},
+    pages = {1--5},
+    title = {{Open source software for simulations and inversions of airborne electromagnetic data}},
+    year = {2018}
+    }
