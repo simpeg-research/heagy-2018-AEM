@@ -17,7 +17,7 @@ before_install:
 
 install:
   - conda env create -f environment.yml
-  - conda activate aem-environment
+  - source activate aem-environment
   - export MPLBACKEND="agg"
   - pip install -r requirements_dev.txt
 
