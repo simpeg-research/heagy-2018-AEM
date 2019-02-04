@@ -8,7 +8,6 @@ dependencies:
   - scipy
   - matplotlib
   - ipywidgets>=0.6.0
-  - mkl
   - pip:
     - pymatsolver
     - discretize
