@@ -83,7 +83,7 @@ Jupyter will then launch in your web-browser.
 
 Each cell of code can be run with `shift + enter` or you can run the entire notebook by selecting `cell`, `Run All` in the toolbar.
 
-<img src="https://raw.githubusercontent.com/simpeg-research/heagy-2018-emcyl/revisions/figures/cell_run_all.png" width=80% align="middle">
+<img src="https://em.geosci.xyz/_images/run_all_cells.png" width=80% align="middle">
 
 For more information on running Jupyter notebooks, see the [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/)
 
