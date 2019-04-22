@@ -3,7 +3,7 @@
 # Open source software for simulations and inversions of airborne electromagnetic data
 
 [![Build Status](https://travis-ci.org/simpeg-research/heagy-2018-AEM.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy-2018-AEM)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy-2018-aem/master?filepath=index.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy-2018-AEM/master?filepath=index.ipynb)
 [![Azure](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg-research/heagy-2018-aem)
 [![Zenodo](https://zenodo.org/badge/124603211.svg)](https://zenodo.org/badge/latestdoi/124603211)
 [![License](https://img.shields.io/github/license/simpeg-research/heagy-2018-AEM.svg)](https://github.com/simpeg-research/heagy-2018-AEM/blob/master/LICENSE)
@@ -83,7 +83,7 @@ Jupyter will then launch in your web-browser.
 
 Each cell of code can be run with `shift + enter` or you can run the entire notebook by selecting `cell`, `Run All` in the toolbar.
 
-<img src="https://raw.githubusercontent.com/simpeg-research/heagy-2018-emcyl/revisions/figures/cell_run_all.png" width=80% align="middle">
+<img src="https://em.geosci.xyz/_images/run_all_cells.png" width=80% align="middle">
 
 For more information on running Jupyter notebooks, see the [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/)
 
