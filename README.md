@@ -10,8 +10,8 @@
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
 Notebooks and python scripts to reproduce the figures shown in
-"[Open source software for simulations and inversions of airborne electromagnetic data](/Heagy_etal_2018_aem_workshop.pdf),"
-submitted to the AEM 2018 workshop.
+"[Open source software for simulations and inversions of airborne electromagnetic data](https://doi.org/10.1080/08123985.2019.1583538),"
+published in the AEM 2018 special edition of Exploration Geophysics.
 
 
 <img src="figures/currents.png" width=40% align="middle">
