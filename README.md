@@ -95,18 +95,26 @@ Please [make an issue](https://github.com/simpeg-research/heagy_2018_AEM/issues)
 
 If you build upon or use these examples in your work, please cite:
 
-Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. W. (2018). Open source software for simulations and inversions of airborne electromagnetic data. In 7th International Workshop on Airborne Electromagnetics (pp. 1–5).
+Lindsey J. Heagy, Seogi Kang, Rowan Cockett & Douglas W. Oldenburg (2019) Open-source software for simulations and inversions of airborne electromagnetic data, Exploration Geophysics, DOI: [10.1080/08123985.2019.1583538](https://doi.org/10.1080/08123985.2019.1583538)
 
 ```
-@inproceedings{Heagy2018,
-author = {Heagy, Lindsey J and Kang, Seogi and Cockett, Rowan and Oldenburg, Douglas W.},
-booktitle = {7th International Workshop on Airborne Electromagnetics},
-keywords = {finite volume,frequency domain,inversion,open source software,time domain},
-pages = {1--5},
-title = {{Open source software for simulations and inversions of airborne electromagnetic data}},
-year = {2018}
+@article{heagy2019aem,
+author = {Lindsey J. Heagy and Seogi Kang and Rowan Cockett and Douglas W. Oldenburg},
+title = {Open-source software for simulations and inversions of airborne electromagnetic data},
+journal = {Exploration Geophysics},
+volume = {0},
+number = {0},
+pages = {1-7},
+year  = {2019},
+publisher = {Taylor & Francis},
+doi = {10.1080/08123985.2019.1583538},
 }
+
 ```
+
+The paper is also available on the ArXiv:
+
+Heagy, L. J., Kang, S., Cockett, R., & Oldenburg, D. (2019). Open source software for simulations and inversions of airborne electromagnetic data. arXiv preprint arXiv:[1902.08238](https://arxiv.org/abs/1902.08238).
 
 ## License
 These notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.
