@@ -10,6 +10,7 @@ dependencies:
   - ipywidgets>=0.6.0
   - mkl
   - pip:
-    - pymatsolver
-    - discretize
-    - SimPEG
+    - geoana==0.0.5
+    - pymatsolver==0.1.2
+    - discretize==0.3.8
+    - SimPEG==0.10.4
