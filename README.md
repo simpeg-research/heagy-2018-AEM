@@ -64,13 +64,6 @@ conda env create -f environment.yml
 conda activate aem-environment
 ```
 
-
-alternatively, you can install dependencies through pypi
-
-```
-pip install -r requirements.txt
-```
-
 You can then launch Jupyter
 
 ```
@@ -89,7 +82,7 @@ For more information on running Jupyter notebooks, see the [Jupyter Documentatio
 
 ## Issues
 
-Please [make an issue](https://github.com/simpeg-research/heagy_2018_AEM/issues) if you encounter any problems while trying to run the notebooks.
+Please [make an issue](https://github.com/simpeg-research/heagy-2018-AEM/issues) if you encounter any problems while trying to run the notebooks.
 
 ## Citation
 
