@@ -12,5 +12,5 @@ dependencies:
   - pip:
     - geoana==0.0.5
     - pymatsolver==0.1.2
-    - discretize==0.3.8
-    - SimPEG==0.10.4
+    - discretize==0.4.7
+    - SimPEG==0.11.5
