@@ -9,6 +9,7 @@ dependencies:
   - matplotlib
   - ipywidgets>=0.6.0
   - mkl
+  - pip
   - pip:
     - geoana==0.0.5
     - pymatsolver==0.1.2
